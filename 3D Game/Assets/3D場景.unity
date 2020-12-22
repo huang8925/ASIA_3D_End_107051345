@@ -604,7 +604,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &799932316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -755,7 +755,10 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: f1a66e9ea5956e04bb126f5238ec5b0c, type: 2}
   dialog: {fileID: 1918644320}
   textContent: {fileID: 579991711}
+  textName: {fileID: 749452585}
+  interval: 0.2
   playerInArea: 0
+  state: 0
 --- !u!4 &845758395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 320b1c2af77554f99a1658df4a6d3d5c,
@@ -5839,7 +5842,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1918644321
 RectTransform:
   m_ObjectHideFlags: 0

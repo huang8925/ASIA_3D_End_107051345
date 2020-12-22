@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogA: "\u4ECA\u5929\u5929\u6C23\u771F\u597D"
   dialogB: "\u5DE7\u9846\u7C92\u9999\u8549\u62FF\u9435"
-  dialogC: 
+  dialogC: "\u5976\u9165\u62B9\u8336\u6AFB\u6843\u6885\u5B50\u86CB\u7CD5"
   count: 10
   countCurrent: 0
