@@ -1,0 +1,33 @@
+﻿using UnityEngine;
+using Invector.vCharacterController;
+
+public class player : MonoBehaviour
+{
+    private float hp = 100;
+    private Animator ani;
+
+    private void Awake()
+    {
+        ani = GetComponent<Animator>();
+    }
+
+    public void Damage()
+    {
+        hp -= 35;
+        ani.SetTrigger("受傷");
+
+        if(hp <= 0)
+        {
+            Dead();
+        }
+    }
+
+    private void Dead()
+    {
+        ani.SetTrigger("死亡");
+
+        vThirdPersonController vt = GetComponent<vThirdPersonController>();
+        vt.lockMovement = true;
+        vt.lockRotation = true;
+    }
+}
