@@ -780,7 +780,7 @@ MonoBehaviour:
   textName: {fileID: 749452585}
   interval: 0.2
   playerInArea: 0
-  state: 1
+  state: 0
 --- !u!4 &845758395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 320b1c2af77554f99a1658df4a6d3d5c,
